@@ -55,7 +55,11 @@ To run this project, you will need:
 5.  **Open and run the three `Sotah Bias Analysis` notebooks** (`GPT3.5.ipynb`, `Hugging Face.ipynb`, and `Llama.ipynb`) in any order. Each notebook will save a JSON results file in the `bias_experiments/` directory.
 6.  **Open and run `compare_llm_translations.ipynb`** to generate the final report and visualizations.
 
+## Note on Sample Data:
+The bias_experiments/ and experiment_data/ directories have been pre-loaded with sample results from a previous run. You can view these results by running the compare_llm_translations.ipynb notebook directly. To generate your own results, you must first run the three Sotah Bias Analysis notebooks as described in the "How to Run the Code" section.
+
 ## Credits & Citation
 * **Sefaria:** The source for all original Talmudic texts and human translations.
 * **LLMs:** GPT-3.5-Turbo (OpenAI), Llama 3 (Ollama), and `chuanli11/Llama-3.2-3B-Instruct-uncensored` (Hugging Face).
 * **Metrics:** The code uses standard libraries for BLEU, TER, TF-IDF, and VADER. The COMET model is from Unbabel.Here is a `README.md` file based on your code and project description. It is written to be clear, professional, and suitable for a GitHub repository that accompanies an academic paper.
+
